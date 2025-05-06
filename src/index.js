@@ -1,5 +1,5 @@
 import "dotenv/config";
 
-import dbConnect from "./db/index.js";
+import connectDB from "./db/index.js";
 
-dbConnect();
+connectDB();
